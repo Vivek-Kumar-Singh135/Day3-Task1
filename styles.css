@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("bg.jpg");
+    color: white;
+}
+
+.container {
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid palevioletred;
+    border-radius: 5px;
+}
+
+.heading {
+    text-align: center;
+    color: crimson;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.game {
+    text-align: center;
+}
+
+#check {
+    background: linear-gradient(150deg, lightgreen, lightcoral);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#check:hover {
+    box-shadow: 2px 1px 3px 2px lightgreen;
+}
+
+#result {
+    border: 2px solid black;
+    background: li;
+    background: linear-gradient(150deg, lightgreen, lightseagreen);
+    color: black;
+    width: 200px;
+    height: 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.out {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
